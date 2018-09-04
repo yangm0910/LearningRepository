@@ -1,0 +1,13 @@
+#指定服务端口
+server:
+  port: 8780
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+#两个false表示eurake是一个server
+    register-with-eureka: false
+    fetch-registry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/euraka/
