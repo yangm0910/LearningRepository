@@ -11,6 +11,10 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 @SpringBootApplication
 public class DemoApplication {
 
+    /**
+     * person do some change
+     * @param args sdfsf
+     */
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
