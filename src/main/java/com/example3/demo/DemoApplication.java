@@ -11,7 +11,12 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 @SpringBootApplication
 public class DemoApplication {
 
+
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
+	}
+
+	public void testForGit (){
+		//person 2 do something
 	}
 }
